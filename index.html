@@ -20,22 +20,45 @@
         </nav>
     </header>
 
-    <!-- article or post in a blog or something like that , that easily can be removed or missplaced and our website wont change from it -->
-    <article>
-        <!-- tag <header>  could be used here or in can be used without it - both versions are okay. P.S. <header> could be used multiple times in one wedbite-->
-        <header>  
-            <h2>Canadian men</h2>
-        </header>
-        <p>Ususally they want to build a career first and then get married.</p>
-    </article>
+    <!-- основное содержимое нашей страницы, не второстепенное!!! Сюда войдет все, кроме футера и хедера! Этот тег может быть тольк  один! -->
+    <main>
 
-    <!-- for example banner or commercial of another page, another additional information that won't be added to Google search.
-    В article можно поместить пост из Инстаграм, коммент из Инстаграм,пост на сайте любого блога, твит из Твиттера.
-    Если мы удалим article (пост, коммент, твит), наша структура страницы никак не пострадает
-    То есть это информация, которую по факту можно поместить на какой-то другой сайт и удаление которой с нашего сайта никак не навредит сайту -->
-    <aside>
-        <p>ASIDE </p>
-    </aside>
+        <!-- смысловой раздел сайта - неотделяемый, его нельзя убрать. Может включать в себя несколько <article> -->
+        <section>
+
+            <!-- better to use header to emphasise the main name of the whole section, but it still will work without it -->
+            <header>
+                <h2>ALL POSTS</h2>
+            </header>
+
+            <!-- article or post in a blog or something like that , that easily can be removed or missplaced and our website wont change from it -->
+            <article>
+                <!-- tag <header>  could be used here or in can be used without it - both versions are okay. P.S. <header> could be used multiple times in one wedbite-->
+                <header>  
+                    <h2>Canadian men</h2>
+                </header>
+                <p>Ususally they want to build a career first and then get married.</p>
+            </article>
+
+            <article>
+                <!-- tag <header>  could be used here or in can be used without it - both versions are okay. P.S. <header> could be used multiple times in one wedbite-->
+                <header>  
+                    <h2>Canadian woman</h2>
+                </header>
+                <p>Ususally they tend to have 3 or 4 children</p>
+            </article>
+
+        </section>
+
+        <!-- for example banner or commercial of another page, another additional information that won't be added to Google search.
+        В article можно поместить пост из Инстаграм, коммент из Инстаграм,пост на сайте любого блога, твит из Твиттера.
+        Если мы удалим article (пост, коммент, твит), наша структура страницы никак не пострадает
+        То есть это информация, которую по факту можно поместить на какой-то другой сайт и удаление которой с нашего сайта никак не навредит сайту -->
+        <aside>
+            <p>ASIDE </p>
+        </aside>
+
+    </main>
 
     <!-- everything we would like to put in out footer -->
     <footer>
